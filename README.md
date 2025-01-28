@@ -1,2 +1,2 @@
 # HighlightScholar
-A project for highlight main points of social science papers.
+A project for highlighting key points in social science papers using LLM.
