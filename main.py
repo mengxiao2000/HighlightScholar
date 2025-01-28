@@ -18,7 +18,7 @@ st.title("🎨 HighlightScholar")
 
 # 用户输入API Key和Base URL
 api_key = st.text_input("请输入您的OpenAI API Key", type="password")
-base_url = st.text_input("请输入您的OpenAI Base URL", value="https://api.chatanywhere.tech/v1")
+base_url = st.text_input("请输入您的OpenAI Base URL", )
 
 # 初始化OpenAI客户端
 if api_key and base_url:
