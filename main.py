@@ -23,11 +23,6 @@ base_url = st.secrets["base_url"] #st.text_input("请输入您的OpenAI Base URL
 
 # 初始化OpenAI客户端
 client = OpenAI(api_key=api_key, base_url=base_url)
-#if api_key and base_url:
-#    client = OpenAI(api_key=api_key, base_url=base_url)
-#else:
-#    st.warning("请输入API Key和Base URL以继续。")
-#    st.stop()
 
 # 从PDF中提取文本
 def extract_text_from_pdf(file):
