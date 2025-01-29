@@ -68,7 +68,7 @@ def extract_key_content(text):
     """
     
     response = client.chat.completions.create(
-        model="deepseek-chat",
+        model="gpt-4o-mini",
         messages=[
             {"role": "system", "content": "你是一个学术助手，能够从文章中提取关键内容。"},
             {"role": "user", "content": prompt},
